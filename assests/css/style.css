@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+margin-top: 12%;
+}
+
+.image-container{
+    background: #13182E;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.image-container__images .img{
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+}
